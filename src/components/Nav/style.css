@@ -1,0 +1,21 @@
+nav a {
+    text-decoration: none;
+    margin-left: 8px;
+    list-style-type: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    color:  #ffff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background-size: 100%;
+    color: #ffff;
+}
