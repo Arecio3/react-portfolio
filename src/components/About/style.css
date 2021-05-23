@@ -1,0 +1,13 @@
+#aboutMe {
+    letter-spacing: 0.3px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    border: solid 3px #61dafb;
+    border-radius: 0.3rem;
+    padding: 10px;
+}
+
+span {
+    color:#61dafb;
+}

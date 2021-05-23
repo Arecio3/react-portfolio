@@ -1,0 +1,12 @@
+* {
+    background-color: #666;
+}
+
+#homePg {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.homeHeader {
+    font-size: 100px;
+}

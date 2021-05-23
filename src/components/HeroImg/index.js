@@ -1,11 +1,11 @@
 import React from 'react'
-import src from '../../images/background.jpg'
+import src from '../../images/background.jpeg'
 import './style.css'
 
 const HeroImg = () => {
     return (
         // eslint-disable-next-line
-        <img className='hero' src={src} alt='sky image'></img>
+        <img id='hero' src={src} alt='Pc Setup'></img>
     )
 }
 
