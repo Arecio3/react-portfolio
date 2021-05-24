@@ -1,4 +1,4 @@
-#aboutMe {
+/* .aboutMeHeader {
     letter-spacing: 0.3px;
     display: flex;
     flex-wrap: wrap;
@@ -6,8 +6,58 @@
     border: solid 3px #61dafb;
     border-radius: 0.3rem;
     padding: 10px;
-}
+} */
 
 span {
     color:#61dafb;
 }
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .aboutMeHeader {
+    font: bold 300% Consolas, Monaco, monospace;
+    font-size: 100px;
+    border-right: 0.1em solid white;
+    width: 16.5em;
+    width: 9ch;
+    margin-top: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(9, end),
+      blink-caret 0.5s step-end infinite alternate;
+    margin-bottom: 80px;
+    position: relative;
+  }
+
+
+
+
+  .bioHead {
+    font-size: 50px;
+    margin: 0 auto;
+  }
+
+  img {
+      border-radius: 5px;
+      border: 1px solid black;
+      height: 360px;
+      position: absolute;
+      top: 200px;
+      left: 10px;
+  }
+
+  img:hover {
+      filter: grayscale(100%);
+      box-shadow: 5px black;
+  }

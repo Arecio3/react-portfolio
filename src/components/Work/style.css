@@ -1,0 +1,137 @@
+.mainBtn {
+    font-size: 100px !important;
+}
+
+.subBtn {
+    font-size: 50px;
+}
+
+.modalPic {
+    width: 100%;
+}
+#modal1Link {
+    text-decoration: none;
+    color: white;
+    background-color: #f90;
+    padding: 7px;
+    border-radius: 0.25rem;
+}
+
+#modal2Link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(121, 85, 189);
+    padding: 7px;
+    border-radius: 0.25rem;
+}
+#modal3Link {
+    text-decoration: none;
+    color: #2d2d2f;
+    background-color: #ABDBCE;
+    padding: 7px;
+    border-radius: 0.25rem;
+}
+#modal4Link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 88, 207);
+    padding: 7px;
+    border-radius: 0.25rem;
+}
+#modal5Link {
+    text-decoration: none;
+    color: #2d2d2f;
+    background-color: rgb(216, 176, 102);
+    padding: 7px;
+    border-radius: 0.25rem;
+}
+#modal6Link {
+    text-decoration: none;
+    color: #2d2d2f;
+    background-color: rgb(189, 85, 85);
+    padding: 7px;
+    border-radius: 0.25rem;
+}
+
+h5 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-header .btn-close {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#pic-0 {
+    height: 150px;
+    width: 75%;
+    background-image: url('../../images/part-dark.png');
+    opacity: inherit;
+    background-size: cover;
+} 
+#pic-1 {
+    height: 150px;
+    width: 75%;
+    background-image: url("../../images/pic-1.png");
+    background-size: cover;
+} 
+
+
+
+#pic-2 {
+    height: 150px;
+    background-image: url("../../images/weather-dark.png");
+    background-size: cover;
+    width: 75%;
+}
+
+
+
+#pic-3 {
+    height: 150px;
+    background-image: url('../../images/quiz-dark.png');
+    background-size: cover;
+    width: 75%;
+}
+
+
+
+#pic-4 {
+    background-image: url('../../images/scheduler-dark.png');
+    height: 150px;
+    background-size: cover;
+    width: 75%;
+}
+
+#pic-5 {
+    background-image: url(../../images/pass-dark.png);
+    background-size: cover;
+    height: 150px;
+    width: 75%;
+}
+
+#pic-0:hover {
+    cursor: pointer;
+    background-image: url('../../images/pic-hover.png');
+}
+
+#pic-1:hover {
+    cursor: pointer;
+    background-image: url(../../images/pic-1-hover.png);
+}
+#pic-2:hover {
+    cursor: pointer;
+    background-image: url(../../images/weather-hover.png);
+}
+#pic-3:hover {
+    cursor: pointer;
+    background-image: url(../../images/quiz-hover.png);
+}
+#pic-4:hover {
+    cursor: pointer;
+    background-image: url(../../images/scheduler-hover.png);
+}
+#pic-5:hover {
+    cursor: pointer;
+    background-image: url(../../images/pass-hover.png);
+}
