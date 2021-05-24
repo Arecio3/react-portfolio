@@ -1,8 +1,8 @@
 import React from 'react';
+
 import './style.css'
 
 function NavigationBar({  handlePageChange, currentPage }) {
-
   return (
     
       <nav className='nav-bar'>

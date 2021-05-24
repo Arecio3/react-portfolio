@@ -8,9 +8,6 @@ import NavigationBar from './NavigationBar'
 
 class Portfolio extends Component {
 
-
-
-  
     state = {
         currentPage: 'Home'
     };
@@ -26,7 +23,7 @@ class Portfolio extends Component {
         return <About />
       } else if (this.state.currentPage === 'Work') {
         return <Work />
-      } else if (this.state.currentPage === 'Contact') {
+      } else  {
         return <Contact />
       }
     }
@@ -37,7 +34,6 @@ class Portfolio extends Component {
           <NavigationBar currentPage={this.state.currentPage} handlePageChange=
           {this.handlePageChange}/>
           {this.renderPage()}
-         
       </div>
     );
   }

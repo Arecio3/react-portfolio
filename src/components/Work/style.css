@@ -72,7 +72,7 @@ h5 {
 #pic-1 {
     height: 150px;
     width: 75%;
-    background-image: url("../../images/pic-1.png");
+    background-image: url("../../images/pic-1-hover.png");
     background-size: cover;
 } 
 
@@ -117,7 +117,7 @@ h5 {
 
 #pic-1:hover {
     cursor: pointer;
-    background-image: url(../../images/pic-1-hover.png);
+    background-image: url(../../images/pic-1.png);
 }
 #pic-2:hover {
     cursor: pointer;
@@ -135,3 +135,37 @@ h5 {
     cursor: pointer;
     background-image: url(../../images/pass-hover.png);
 }
+
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .workHeader {
+    font: bold 300% Consolas, Monaco, monospace;
+    font-size: 100px;
+    border-right: 0.1em solid white;
+    width: 16.5em;
+    width: 8ch;
+    margin-top: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(8, end),
+      blink-caret 0.5s step-end infinite alternate;
+    margin-bottom: 80px;
+    position: relative;
+  }
+
+  .modalContainer {
+      margin-top: 10px;
+  }
