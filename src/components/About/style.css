@@ -7,6 +7,9 @@
     border-radius: 0.3rem;
     padding: 10px;
 } */
+.bio {
+  margin-left: 70%;
+}
 
 span {
     color:#61dafb;
@@ -53,8 +56,7 @@ span {
       border: 1px solid black;
       height: 360px;
       position: absolute;
-      top: 200px;
-      left: 10px;
+      right: 600px;
   }
 
   img:hover {

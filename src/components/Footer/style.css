@@ -5,14 +5,15 @@
     font-size: 15px;
     padding: 5px 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.contact a {
     text-decoration: none;
     color: #3c456a;
     margin-left: 5%;
-
 }
+
+.contact a {
+    padding: 10px;
+}
+
 
 .bi {
     font-size: 25px;

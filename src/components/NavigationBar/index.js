@@ -1,5 +1,5 @@
 import React from 'react';
-
+import resume from './Resume.pdf'
 import './style.css'
 
 function NavigationBar({  handlePageChange, currentPage }) {
@@ -10,7 +10,7 @@ function NavigationBar({  handlePageChange, currentPage }) {
           <a href="#work" onClick={() => handlePageChange('Work')} className={currentPage === 'Work'}>Work</a>
           <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact'}>Contact</a>
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About'}>About</a>
-          <a href='./Resume.pdf'>Resume</a>
+          <a href={resume}>Resume</a>
       </nav>
     
   );
