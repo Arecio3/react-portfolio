@@ -97,14 +97,14 @@ h5 {
 
 
 #pic-4 {
-    background-image: url('../../images/scheduler-dark.png');
+    background-image: url('../../images/pass-dark.png');
     height: 150px;
     background-size: cover;
     width: 75%;
 }
 
 #pic-5 {
-    background-image: url(../../images/pass-dark.png);
+    background-image: url(../../images/scheduler-dark.png);
     background-size: cover;
     height: 150px;
     width: 75%;
@@ -129,11 +129,11 @@ h5 {
 }
 #pic-4:hover {
     cursor: pointer;
-    background-image: url(../../images/scheduler-hover.png);
+    background-image: url(../../images/pass-hover.png);
 }
 #pic-5:hover {
     cursor: pointer;
-    background-image: url(../../images/pass-hover.png);
+    background-image: url(../../images/scheduler-hover.png);
 }
 
 
@@ -166,6 +166,6 @@ h5 {
     position: relative;
   }
 
-  .modalContainer {
-      margin-top: 10px;
-  }
+.modalContainer {
+    margin-bottom: 10%;
+}

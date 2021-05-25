@@ -10,6 +10,7 @@ function NavigationBar({  handlePageChange, currentPage }) {
           <a href="#work" onClick={() => handlePageChange('Work')} className={currentPage === 'Work'}>Work</a>
           <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact'}>Contact</a>
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About'}>About</a>
+          <a href='./Resume.pdf'>Resume</a>
       </nav>
     
   );
