@@ -10,9 +10,10 @@
   }
 }
 
+
 .homeHeader {
   font: bold 300% Consolas, Monaco, monospace;
-  border-right: 0.1em solid white;
+  border-right: 0.1em solid black;
   width: 16.5em;
   width: 14ch;
   margin: 2em 1em;
@@ -20,24 +21,21 @@
   overflow: hidden;
   animation: typing 2s steps(14, end),
     blink-caret 0.5s step-end infinite alternate;
-  margin-bottom: 80px;
   font-size: 100px;
-  text-align: center;
+ align-self: center;
+ margin-bottom: 0;
 }
 
-* {
-    background-color: #666
-}
 
 .homeContent {
-  text-align: center;
-  margin-bottom: 3px;
+ margin-top: 20px;
+ margin-right: 100px;
+text-align: center;
 }
 
 .custom-btn {
  margin-left: 50%;
  margin-left: 50%;
- margin-top: 90%;
 }
 
 @media screen and (max-width:768px) {

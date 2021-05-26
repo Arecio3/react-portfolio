@@ -1,5 +1,4 @@
 import React from "react";
-import Modals from "../Modal";
 import Cards from '../Card'
 import partHub from '../../images/part-dark.png'
 import astroscope from '../../images/pic-1-hover.png'

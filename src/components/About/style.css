@@ -55,11 +55,23 @@ span {
       border-radius: 5px;
       border: 1px solid black;
       height: 360px;
-      position: absolute;
-      right: 600px;
+      /* position: absolute;
+      right: 600px; */
   }
 
   img:hover {
       filter: grayscale(100%);
       box-shadow: 5px black;
+  }
+
+  @media screen and (max-width:768px) {
+    .aboutMeHeader{
+      font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .bio{
+     margin-left: 20%;
+    }
   }
