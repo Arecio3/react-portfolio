@@ -1,33 +1,22 @@
-/* .aboutMeHeader {
-    letter-spacing: 0.3px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 5px;
-    border: solid 3px #61dafb;
-    border-radius: 0.3rem;
-    padding: 10px;
-} */
-.bio {
-  margin-left: 70%;
+#bioContent {
+  display: flex;
+  flex-direction:row;
 }
+#biography {
+  flex-direction: column;
+  padding-left: 25px;
+}
+/* .bio {
+  margin-left: 40%;
+  
+} */
 
 span {
     color:#61dafb;
 }
-@keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  
-  @keyframes blink-caret {
-    50% {
-      border-color: transparent;
-    }
-  }
-  
-  .aboutMeHeader {
-    font: bold 300% Consolas, Monaco, monospace;
+
+.aboutMeHeader {
+  font: bold 300% Consolas, Monaco, monospace;
     font-size: 100px;
     border-right: 0.1em solid white;
     width: 16.5em;
@@ -38,40 +27,52 @@ span {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(9, end),
-      blink-caret 0.5s step-end infinite alternate;
+    blink-caret 0.5s step-end infinite alternate;
     margin-bottom: 80px;
     position: relative;
   }
-
-
-
-
+  
+  
+  
+  
   .bioHead {
     font-size: 50px;
     margin: 0 auto;
   }
-
+  
   img {
-      border-radius: 5px;
-      border: 1px solid black;
-      height: 360px;
-      /* position: absolute;
-      right: 600px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 360px;
+    /* position: absolute;
+    right: 600px; */
   }
-
+  
   img:hover {
-      filter: grayscale(100%);
-      box-shadow: 5px black;
+    filter: grayscale(100%);
+    box-shadow: 5px black;
   }
-
+  
   @media screen and (max-width:768px) {
     .aboutMeHeader{
       font-size: 50px;
     }
   }
-
+  
   @media screen and (max-width:768px) {
     .bio{
-     margin-left: 20%;
+      margin-left: 20%;
     }
   }
+  
+  @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+    
+    @keyframes blink-caret {
+      50% {
+        border-color: transparent;
+      }
+    }
